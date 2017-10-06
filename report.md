@@ -6,20 +6,13 @@ REPORT.MD
 
 개요
 
-1. Redux란?
+1. Flux란?
 
-2. Flux란?
-
-
-
-[1. Redux란?]
-
-Redux는 JavaScript 어플리케이션에서 data-state와 UI-state를 관리해주는 도구이다. 
-Facebook에서 React가 함께 소개한 Flux 아키텍쳐를 구현한 라이브러리이다. 이 라이브러리는 컴퍼넌트끼리의리 데이터 관리를 쉽고 효율적으로 할 수 있게 해준다.
+2. Redux란?
 
 
 
-[2. Flux란?]
+[1. Flux란?]
 
 Flux는 현재 웹 개발에서 가장 인기있는 토픽 중 하나이면서도 가장 이해되고 있지 않은 토픽 중 하나이다.
 Flux는 애플리케이션에서 데이터를 취급하기 위한 패턴(pattern)이다. Flux와 React는 Facebook에서 함께 성장해왔다. 많은 사람들이 이 둘을 함께 사용하지만, 사실 독립적으로도 사용할 수 있다. Flux와 React는 Facebook이 가지고 있었던 특정한 문제점들을 해결하기 위해서 개발되었다.
@@ -79,7 +72,15 @@ Flux의 디스패쳐는 다른 아키텍처들과는 조금 다른 점이 있다
   - 스토어가 새로운 상태를 넘겨주면, 컨트롤러 뷰는 자신 아래의 모든 뷰에게 새로운 상태에 맞게 렌더링하라고 알린다.
 
 
+[2. Redux란?]
+
+Redux란 JavaScript 어플리케이션에서 data-state와 UI-state를 관리해주는 도구이다.
+Facebook에서 React가 함께 소개한 Flux 아키텍쳐를 구현한 라이브러리이다. 이 라이브러리는 컴퍼넌트끼리의 데이터 관리를 쉽고 효율적으로 할 수 있게 해준다.
 
 
 
-출처 : blog.naver.com/naan_ace/221107702135, https://velopert.com/1225, bestalign.github.io/2015/10/06/cartoon-guide-to-flux/
+
+
+
+
+출처 : blog.naver.com/naan_ace/221107702135, https://velopert.com/1225, bestalign.github.io/2015/10/06/cartoon-guide-to-flux/, bestalign.github.io/2015/10/26/cartoon-intro-to-redux/
