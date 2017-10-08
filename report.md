@@ -10,6 +10,9 @@ REPORT.MD
 
 2. Redux란?
 
+3. 느낀점
+
+
 
 
 [1. Flux란?]
@@ -184,6 +187,13 @@ Redux도 비슷한 컨셉을 가지고 있다. 영민한 컴포넌트와 우직�
   - 뷰 레이어 바인딩은 스토어에게 새로운 상태를 보내달라고 요청한다.
   - 뷰 레이어 바인딩은 뷰에게 화면을 업데이트하도록 요청한다.
   
+
+
+
+[3. 느낀점]
+  처음에 과제를 받았을 때는 난감하기만 했다. React의 기초밖에 모르겠는데 Redux가 뭔지도 몰랐지 때문이다. 또 처음에는 React App여서 React한 어플리케이션을 만들어야하나 싶었다. 수업 때 집중해야한다는 것을 다시 한 번 느꼈다. 다행히 Redux, Flux, React 등등 개념이 여러 곳에 잘 정리되어 있었다. 이번 과제를 통해서 Redux의 개념을 배울 수 있어서 좋았고 Flux 아키텍쳐가 무엇인지 어떤 흐름으로 진행되는지 알 수 있어서 좋았다. 웹 쪽에 관심이 없어서 몰랐던 부분들을 돌아본 계기가 됐다.
+
+
 
 
 출처 : blog.naver.com/naan_ace/221107702135, https://velopert.com/1225, bestalign.github.io/2015/10/06/cartoon-guide-to-flux/, bestalign.github.io/2015/10/26/cartoon-intro-to-redux/
