@@ -10,10 +10,9 @@ class Option extends React.Component {
             diff: '1'
         }
 
-
-        this.onChangeDiff = this.onChangeDiff.bind(this); 
+        this.onChangeDiff = this.onChangeDiff.bind(this);
     }
-    
+
     render() {
         return (
             <div>
@@ -31,7 +30,7 @@ class Option extends React.Component {
 
         if(e.target.value=='') {
             this.setState({ diff: '0' });
-        } 
+        }
 
         this.props.onUpdateDiff(parseInt(e.target.value));
 
